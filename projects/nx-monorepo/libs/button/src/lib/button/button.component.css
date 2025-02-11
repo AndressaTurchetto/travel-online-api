@@ -1,0 +1,111 @@
+button {
+  --ab-primary-text-color: #181818;
+  --ab-secondary-text-color: #5C5C5C;
+  --ab-tertiary-text-color: #747474;
+  --ab-icons: #7C7B7B;
+  --ab-outline: #D7D7D7;
+  --ab-dividers: #EDEDED;
+  --ab-disabled-text: #8A8A8A;
+  --ab-disabled-bg: #EFEFEF;
+  --ab-boxes: #F8F8F8;
+  --ab-inputs: var(--ab-boxes);
+  --ab-white: #FFF;
+
+  --ab-primary-color: #2D5BFF;
+  --ab-secondary-color: #6284FD;
+  --ab-tertiary-color: #96ADFF;
+  --ab-quaternary-color: #ECF0FF;
+  --ab-hover-color: #1B4AF0;
+  --ab-click-color: #002ED0;
+  --ab-focus-color: #AF4BFE;
+
+  --ab-error-bg-color: #FFF2F2;
+  --ab-error-border-color: #FF3030;
+  --ab-success-bg-color: #E6FFE2;
+
+  background: var(--ab-primary-color);
+  color: var(--ab-white);
+  padding: 0.75rem 2rem 0.75rem 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-family: sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.02em;
+  text-align: center;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+button:focus {
+  outline-color: var(--ab-focus-color, #af4bfe);
+}
+
+button.primary:hover {
+  background: var(--ab-hover-color);
+  color: var(--ab-white);
+}
+
+button.primary:active {
+  background: var(--ab-click-color);
+  color: var(--ab-white);
+}
+
+button.primary:disabled {
+  background: var(--ab-disabled-bg);
+  color: var(--ab-disabled-text);
+}
+
+button.secondary {
+  background: var(--ab-quaternary-color);
+  color: var(--ab-primary-color);
+}
+
+button.secondary:hover {
+  background: var(--ab-hover-color);
+  color: var(--ab-white);
+}
+
+button.secondary:active {
+  background: var(--ab-click-color);
+  color: var(--ab-white);
+}
+
+button.secondary:disabled {
+  background: var(--ab-disabled-bg);
+  color: var(--ab-disabled-text);
+}
+
+button.tertiary {
+  background: var(--ab-white);
+  color: var(--ab-primary-color);
+}
+
+button.tertiary:hover {
+  background: var(--ab-white);
+  color: var(--ab-hover-color);
+}
+
+button.tertiary:active {
+  background: var(--ab-white);
+  color: var(--ab-click-color);
+}
+
+button.tertiary:disabled {
+  background: var(--ab-white);
+  color: var(--ab-disabled-text);
+}
+
+.violet {
+  --ab-primary-color: #af4bfe;
+  --ab-secondary-color: #be74f9;
+  --ab-tertiary-color: #e2bdff;
+  --ab-quaternary-color: #f5e8ff;
+  --ab-hover-color: #a530ff;
+  --ab-click-color: #8e25df;
+  --ab-focus-color: #2d5bff;
+}
