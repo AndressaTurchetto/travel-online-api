@@ -71,46 +71,6 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "README.md",
-        "hash": "1499672758912814074"
-      },
-      {
-        "file": "project-thumb.png",
-        "hash": "8938090246800804039"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
-      },
-      {
-        "file": "package.json",
-        "hash": "4770111243755234526"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "8491837053101957257"
-      },
-      {
-        "file": "CHANGELOG.md",
-        "hash": "16751791698061073940"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
         "file": "package-lock.json",
         "hash": "13883432765990087337"
       },
@@ -119,20 +79,60 @@
         "hash": "5443105041930014821"
       },
       {
-        "file": ".prettierignore",
-        "hash": "3395189204293871444"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "18315524891129148814"
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
       },
       {
         "file": "tsconfig.base.json",
         "hash": "8119992564603614244"
       },
       {
+        "file": ".prettierignore",
+        "hash": "3395189204293871444"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "project-thumb.png",
+        "hash": "8938090246800804039"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "README.md",
+        "hash": "12226727524277891762"
+      },
+      {
         "file": "nx.json",
         "hash": "2270091082942738739"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "8491837053101957257"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "package.json",
+        "hash": "4770111243755234526"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "CHANGELOG.md",
+        "hash": "16751791698061073940"
       }
     ],
     "projectFileMap": {
